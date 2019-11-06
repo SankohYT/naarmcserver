@@ -26,7 +26,23 @@ client.on('ready', () => {
 client.user.setGame(`#bc | osama tech`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
+client.on('message', msg => {
+  if (msg.content === 'هلا') {
+    msg.reply('هلا بيك والله!');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'سلام عليكم') {
+    msg.reply('وعليكم السلام ورحمة الله تعالى وبركاته');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'ip') {
+    msg.reply('Play.NaarMc.fmcs.cf');
+  }
+});
 
 
 
-client.login(" توكن البوت ");
+client.login(" NjQxNjk1MTU2OTAyNTU5NzY0.XcMImA.uxo6N6--3PVAIVqy3CjLiZNKurU
+ ");
